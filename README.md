@@ -24,10 +24,12 @@ Operating strictly across game programming, system level software development, a
 
 ### 🛠️ Technical Stack
 
-**Core Architecture & Software**
+**Core Architecture & Software** 
+
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/Unreal_Engine_5-313131?style=for-the-badge&logo=unrealengine&logoColor=white) ![Blueprints](https://img.shields.io/badge/Blueprints-008FBA?style=for-the-badge&logo=unrealengine&logoColor=white) ![EOS](https://img.shields.io/badge/Epic_Online_Services-313131?style=for-the-badge&logo=epicgames&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 
-**Backend & Web Infrastructure**
+**Backend & Web Infrastructure** 
+
 ![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 <br/>
