@@ -1,24 +1,26 @@
 <div align="center">
 
 # Yuvi-GD
-**Multiplayer Game Developer & Engine Programmer**
+**Unreal Engine Programmer & Systems Developer**
 
 </div>
 
 <br/>
 
-Specializing in scalable multiplayer architecture, gameplay engineering, and low-level engine mechanics. The core engineering focus is building robust, production-ready systems for Unreal Engine, bridging the gap between high-performance C++ game clients and custom backend server environments. By treating game development with mechanical precision, the objective is to build modular frameworks capable of handling highly concurrent gameplay, seamless network replication, and real-time player interactions.
-
-Operating at the intersection of gameplay programming and network systems, the development philosophy prioritizes server-authoritative logic, optimal memory layout for Listen/Dedicated servers, and highly extensible, developer-facing Unreal toolkits.
+Specializing in scalable architecture, gameplay engineering, and custom engine mechanics. My core focus is building robust, production-ready systems for Unreal Engine, while actively developing low-level C++ utilities and native OS applications. By treating software development with mechanical precision, I build modular frameworks capable of handling highly concurrent gameplay, seamless network replication, and real-time user interactions.
 
 <br/>
 
 ### Engineering Domains
 
-* **Multiplayer & Network Infrastructure:** Architecting server-authoritative simulation logic, efficient network replication strategies, room-based lobbies, and matchmaking pipelines. Comprehensive integration of Epic Online Services (EOS), Nakama, and the Unreal Engine Gameplay Ability System (GAS).
-* **Unreal Engine Tooling & Plugins:** Authoring production-ready, highly optimized C++ plugins for the Unreal Engine marketplace. Specializing in `FastArraySerializer` implementations, custom replication conditions, and turning complex gameplay mechanics into drop-in developer toolkits.
-* **Engine Architecture & Systems:** Designing bespoke C++20 3D game engines, custom rendering pipelines, and hardware abstraction layers (SDL3/DirectX). This low-level systems knowledge ensures deep optimization of game tick execution and memory management.
-* **Full Stack Integration for Games:** Hooking Unreal Engine game binaries into containerized cloud ecosystems using Node.js, Next.js, Docker, and PostgreSQL to deliver high-availability distributed backend services, game economies, and Web3 integrations.
+* **Unreal Engine Architecture & Gameplay**
+  Designing AAA-standard, event-driven freeflow combat frameworks utilizing C++ and the Gameplay Ability System (GAS). Specializing in high-fidelity UI/UX orchestration using low-level Slate and modular UMG components.
+* **Multiplayer & Network Infrastructure**
+  Architecting server-authoritative simulation logic, efficient network replication strategies, and room-based lobbies. Comprehensive integration of Epic Online Services (EOS), Client-Side Prediction, and FastArray serialization.
+* **Core C++ & Systems Programming**
+  Designing bespoke C++20 tools, zero-dependency OS WebView wrappers, and hardware abstraction layers. This low-level systems knowledge ensures deep optimization of game tick execution, multithreading, and memory management.
+* **Full-Stack Integration**
+  Hooking game binaries and desktop applications into cloud ecosystems using Node.js, Next.js, PostgreSQL, and Docker to deliver high-availability distributed backend services.
 
 <br/>
 
@@ -26,15 +28,15 @@ Operating at the intersection of gameplay programming and network systems, the d
 
 **Game Engine & Native Architecture** 
 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/Unreal_Engine_5-313131?style=for-the-badge&logo=unrealengine&logoColor=white) ![Blueprints](https://img.shields.io/badge/Blueprints-008FBA?style=for-the-badge&logo=unrealengine&logoColor=white) ![EOS](https://img.shields.io/badge/Epic_Online_Services-313131?style=for-the-badge&logo=epicgames&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
+![Unreal Engine](https://img.shields.io/badge/Unreal_Engine_5-313131?style=for-the-badge&logo=unrealengine&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Blueprints](https://img.shields.io/badge/Blueprints-008FBA?style=for-the-badge&logo=unrealengine&logoColor=white) ![EOS](https://img.shields.io/badge/Epic_Online_Services-313131?style=for-the-badge&logo=epicgames&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)  ![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
 
-**Game Backend & Web Infrastructure** 
+**Backend & Web Infrastructure & Tools** 
 
 ![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 <br/>
 
-### Connect & Collaborate
+### Connect & Collaboration 
 
 [![Portfolio](https://img.shields.io/badge/Website-181717?style=for-the-badge&logo=google-chrome&logoColor=white)](https://yuvi-gd.onrender.com/)&nbsp;&nbsp;&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yuvi-gd)&nbsp;&nbsp;&nbsp;&nbsp;[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Yuvi_GD)&nbsp;&nbsp;&nbsp;&nbsp;[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@Yuvi_GD)
 
