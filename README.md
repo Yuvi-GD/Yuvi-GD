@@ -42,6 +42,10 @@ Specializing in scalable architecture, gameplay engineering, and custom engine m
 
 <br/>
 
+### Support Open Source Development
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-ff69b4?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/YuviGD)
+
 ---
 
 ### Unreal Engine Plugins & Game Infrastructure
