@@ -1,13 +1,13 @@
 <div align="center">
 
 # Yuvi-GD
-**Unreal Engine Programmer & Systems Developer**
+**Unreal Engine & Low Level Programmer**
 
 </div>
 
 <br/>
 
-Specializing in scalable architecture, gameplay engineering, and custom engine mechanics. My core focus is building robust, production-ready systems for Unreal Engine, while actively developing low-level C++ utilities and native OS applications. By treating software development with mechanical precision, I build modular frameworks capable of handling highly concurrent gameplay, seamless network replication, and real-time user interactions.
+Specializing in scalable architecture, gameplay engineering, and custom engine mechanics. My core focus is building robust, production-ready systems for Unreal Engine, while actively developing low-level C/C++ utilities and System. By treating software development with mechanical precision, I build modular frameworks capable of handling highly concurrent gameplay, seamless network replication, and real-time user interactions.
 
 <br/>
 
@@ -22,7 +22,7 @@ Specializing in scalable architecture, gameplay engineering, and custom engine m
 * **Full-Stack Integration**
   Hooking game binaries and desktop applications into cloud ecosystems using Node.js, Next.js, PostgreSQL, and Docker to deliver high-availability distributed backend services.
 
-<br/>
+---
 
 ### Technical Stack
 
@@ -59,7 +59,7 @@ Specializing in scalable architecture, gameplay engineering, and custom engine m
       <p>A highly optimized, AAA-grade multiplayer chat framework built natively in C++. Utilizes Unreal Engine's advanced FastArraySerializer to guarantee lightweight network traffic and memory-safe UI virtualization via a secure Room-Based architecture. Built for both Listen and Dedicated servers.</p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Yuvi-GD/MP_Inventory">MP_Inventory</a></h3>
+      <h3><a href="https://www.fab.com/listings/b26b2d1c-113c-4239-8504-c03d027fa707">MP_Inventory (Fab)</a></h3>
       <p>A powerful, multiplayer-ready inventory architecture built with full replication support. Features explicit access controls (private/public), a robust item tagging system, and persistent data management to simplify massive multiplayer item states.</p>
     </td>
   </tr>
@@ -74,6 +74,8 @@ Specializing in scalable architecture, gameplay engineering, and custom engine m
     </td>
   </tr>
 </table>
+
+---
 
 ### Core Architecture & Engine Development
 
@@ -99,3 +101,5 @@ Specializing in scalable architecture, gameplay engineering, and custom engine m
     </td>
   </tr>
 </table>
+
+---
