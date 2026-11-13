@@ -29,7 +29,7 @@
         "gui",
         "ui-engine",
         "ecs",
-        "c",
+        "c99",
         "developer-tools"
       ]
     }
