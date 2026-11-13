@@ -1,0 +1,60 @@
+{
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "Yuvraj Ghoghari",
+    "email": "yuvrajghoghari@outlook.com",
+    "description": "Full-time open-source maintainer developing Tether, an extensible C99 ECS UI engine, with its independent Chitra rendering and Vinyasa layout projects.",
+    "webpageUrl": {
+      "url": "https://github.com/Yuvi-GD"
+    }
+  },
+  "projects": [
+    {
+      "guid": "tether",
+      "name": "Tether",
+      "description": "A lightweight, extensible C99 user interface engine built on Entity Component System (ECS) architecture, format-independent scene parsing, the independent Vinyasa layout engine, and the Chitra 2D rendering subsystem.",
+      "webpageUrl": {
+        "url": "https://github.com/Yuvi-GD/Tether"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/Yuvi-GD/Tether"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "gui",
+        "ui-engine",
+        "ecs",
+        "c",
+        "developer-tools"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "bank-private",
+        "type": "bank",
+        "description": "Direct bank transfer details provided securely to grant administrators upon formal agreement. Contact yuvrajghoghari@outlook.com with subject 'Tether Grant Funding'."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "tether-project-grant",
+        "status": "active",
+        "name": "Tether 6-Month Full-Time Development Grant",
+        "description": "Six-month full-time project grant covering maintainer compensation (INR 6,00,000) and dedicated development tooling (INR 72,000) to advance Tether's core architecture, layout, rendering, and multi-language capabilities through tested and documented milestone releases. Scope: M1 (1 mo, INR 1.12L): Core optimization, reusable memory modules, ECS lifecycle, and registry extensibility for custom widgets/events; M2 (2 mo, INR 2.24L): Independent Vinyasa layout engine using Primitive-Container-Slot architecture with Flex and Canvas presets and custom rule extensibility; M3 (1.5 mo, INR 1.68L): Chitra rendering enhancements including SDL3 backend, FreeType/HarfBuzz Unicode text shaping, BiDi processing, vectors, shaders, and separated animation; M4 (1.5 mo, INR 1.68L): Format-independent modular parsing, custom UI definitions, automated multi-language binding generator with CI merge gates, and tested milestone releases. Detailed plan: https://github.com/Yuvi-GD/Yuvi-GD/blob/main/funding-plan.md",
+        "amount": 672000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": [
+          "bank-private"
+        ]
+      }
+    ]
+  }
+}
