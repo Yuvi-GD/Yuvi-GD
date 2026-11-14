@@ -6,7 +6,7 @@
     "role": "maintainer",
     "name": "Yuvraj Ghoghari",
     "email": "yuvrajghoghari@outlook.com",
-    "description": "Full-time open-source maintainer developing Tether, an extensible C99 ECS UI engine, with its independent Chitra rendering and Vinyasa layout projects.",
+    "description": "Full-time open-source maintainer developing Tether, an extensible C99 ECS UI engine, with companion layout engine Vinyasa and renderer Chitra. Proposal: https://github.com/Yuvi-GD/Yuvi-GD/blob/main/Doc/funding-plan.md",
     "webpageUrl": {
       "url": "https://github.com/Yuvi-GD"
     }
@@ -15,7 +15,7 @@
     {
       "guid": "tether",
       "name": "Tether",
-      "description": "A lightweight, extensible C99 user interface engine built on Entity Component System (ECS) architecture, format-independent scene parsing, the independent Vinyasa layout engine, and the Chitra 2D rendering subsystem.",
+      "description": "A lightweight, extensible C99 user interface engine built on Entity Component System (ECS) architecture, format-independent scene parsing, the independent Vinyasa layout engine, and the Chitra 2D rendering subsystem. Full proposal: https://github.com/Yuvi-GD/Yuvi-GD/blob/main/Doc/funding-plan.md",
       "webpageUrl": {
         "url": "https://github.com/Yuvi-GD/Tether"
       },
@@ -45,16 +45,54 @@
     ],
     "plans": [
       {
-        "guid": "tether-project-grant",
+        "guid": "tether-m1-core",
         "status": "active",
-        "name": "Tether 6-Month Full-Time Development Grant",
-        "description": "Six-month grant (INR 6.72L) funding full-time development of Tether, an extensible C99 ECS UI engine. M1: Core ECS optimization, modular memory, custom widgets/events. M2: Independent Vinyasa layout engine (Flex/Canvas presets). M3: Chitra rendering (SDL3, FreeType, HarfBuzz, BiDi). M4: Format-agnostic parser, automated Python/Rust bindings, CI merge gates, and tested release. Detailed plan: https://github.com/Yuvi-GD/Yuvi-GD/blob/main/Doc/funding-plan.md",
-        "amount": 672000,
+        "name": "Milestone 1: Core Optimization & Extensibility",
+        "description": "Core engine stabilization and modular extensibility. Refactors internal memory mechanisms into reusable standalone C99 modules: dynamic contiguous arrays, scratch arenas, and handle containers. Optimizes ECS operations and introduces formal entity/component lifecycle callbacks (mount, update, unmount, destroy). Extends registry to support user-defined components with explicit destructors, custom widgets, and events. Establishes automated Linux CI test matrix.",
+        "amount": 100000,
         "currency": "INR",
         "frequency": "one-time",
-        "channels": [
-          "bank-private"
-        ]
+        "channels": [ "bank-private" ]
+      },
+      {
+        "guid": "tether-m2-vinyasa",
+        "status": "active",
+        "name": "Milestone 2: Vinyasa Modular Layout Engine",
+        "description": "Independent Vinyasa layout engine built on the Primitive, Container, and Slot architecture. Implements extensible measurement and arrangement pipeline allowing custom container rules and slot properties via clean function interfaces. Delivers built-in Flex (row/column direction, cross alignment, gaps) and Canvas (anchor docking) presets. Features caller-supplied scratch arenas with zero persistent heap state, nested constraint reflow, and the Tether layout adapter bridge.",
+        "amount": 200000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": [ "bank-private" ]
+      },
+      {
+        "guid": "tether-m3-chitra",
+        "status": "active",
+        "name": "Milestone 3: Chitra Rendering & Typography",
+        "description": "Hardware-accelerated 2D rendering and cross-platform backend integration. Implements robust SDL3 platform backend for Linux and Windows while preserving Tether event loop and input hit-testing ownership. Integrates FreeType glyph rasterization, HarfBuzz complex-script shaping, and BiDi text processing (Arabic/Hebrew). Adds procedural SDF vector paths, asymmetric border radii, linear/radial gradients, soft drop shadows, and separated animation timing in Tether.",
+        "amount": 150000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": [ "bank-private" ]
+      },
+      {
+        "guid": "tether-m4-ecosystem",
+        "status": "active",
+        "name": "Milestone 4: Parsing, Bindings & Release",
+        "description": "Format-independent scene parsing and multi-language foreign function interfaces. Decouples markup from YAML via intermediate format-neutral AST nodes, allowing custom declarative widgets and attributes. Implements automated binding generator producing native Python and Rust language bindings over 64-bit scalar entity handles (Tether_GUID). Enforces automated multi-language CI test merge gates and publishes tested, documented milestone releases on GitHub.",
+        "amount": 150000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": [ "bank-private" ]
+      },
+      {
+        "guid": "tether-ai-tooling",
+        "status": "active",
+        "name": "6-Month AI Developer Tooling (Claude Max)",
+        "description": "Dedicated AI developer tooling subscription (Claude Max) for the full six-month engineering term. Enables a solo maintainer to execute an ambitious systems roadmap spanning low-level C99 memory allocators, GPU shaders, layout solvers, typography shaping, and FFI binding generation. Multiplies engineering throughput via continuous pair programming, static analysis, rapid test case synthesis, and cross-platform build debugging.",
+        "amount": 72000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": [ "bank-private" ]
       }
     ]
   }
