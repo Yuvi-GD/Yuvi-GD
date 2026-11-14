@@ -47,7 +47,7 @@ The six-month engineering schedule is organized into four sequential milestones:
 - **Timeline:** Month 1 (Weeks 1 to 4)
 - **Duration:** 1.0 Month
 - **Estimated Effort:** ~160 maintainer hours
-- **Budget Allocation:** INR 1,12,000 (Tranche 1)
+- **Budget Allocation:** INR 1,00,000 (Tranche 1)
 
 #### 1. Existing Foundation:
 Tether currently has an operational C99 ECS memory kernel managing generational 64-bit scalar entity handles (`Tether_GUID`), sparse index arrays, and dense component arrays for core properties (layout, shape, typography, visibility, flex slots, state flags, and input routing). A central registry maps string aliases to entities and manages registered widget constructor callbacks. The input subsystem dispatches pointer events via spatial hit-testing with priority routing and reentrant event binding. The baseline passes all 27 automated CTest test suites under AddressSanitizer (ASan) on Windows MSVC.
@@ -97,7 +97,7 @@ Tether currently has an operational C99 ECS memory kernel managing generational 
 - **Timeline:** Months 2 & 3 (Weeks 5 to 12)
 - **Duration:** 2.0 Months (Substantial time allocated due to mathematical and algorithmic complexity)
 - **Estimated Effort:** ~320 maintainer hours
-- **Budget Allocation:** INR 2,24,000 (Tranche 2)
+- **Budget Allocation:** INR 2,00,000 (Tranche 2)
 
 #### 1. Existing Foundation:
 Tether currently includes a built-in two-pass layout solver supporting simple flex rows, columns, padding, gaps, and canvas anchors. Vinyasa exists as an independent repository with early prototypes for row layout, core engine definitions, and element sizing.
@@ -149,7 +149,7 @@ Tether currently includes a built-in two-pass layout solver supporting simple fl
 - **Timeline:** Months 4 to 5.5 (Weeks 13 to 18)
 - **Duration:** 1.5 Months
 - **Estimated Effort:** ~240 maintainer hours
-- **Budget Allocation:** INR 1,68,000 (Tranche 3)
+- **Budget Allocation:** INR 1,50,000 (Tranche 3)
 
 #### 1. Existing Foundation:
 Chitra currently functions as Tether's default rendering backend using Sokol GFX (Direct3D 11 on Windows) and Sokol App for windowing. It manages retained GPU shape handles rendered with Signed Distance Field (SDF) shaders for rounded rectangles and borders, dynamic FontStash glyph caching for ASCII/Latin text, hardware scissor clipping, and 64-bit visual key radix sorting.
@@ -202,7 +202,7 @@ Chitra currently functions as Tether's default rendering backend using Sokol GFX
 - **Timeline:** Months 5.5 to 6 (Weeks 19 to 24)
 - **Duration:** 1.5 Months
 - **Estimated Effort:** ~240 maintainer hours
-- **Budget Allocation:** INR 1,68,000 (Tranche 4)
+- **Budget Allocation:** INR 1,50,000 (Tranche 4)
 
 #### 1. Existing Foundation:
 Tether has a declarative YAML scene parser based on libyaml that parses markup into a format-neutral Abstract Syntax Tree (`Tether_ASTNode`: SCALAR, SEQUENCE, MAPPING) and instantiates live ECS entities. The Central Registry provides entity aliasing, and the public C API passes 64-bit scalar entity handles (`Tether_GUID`).
@@ -222,8 +222,8 @@ Tether has a declarative YAML scene parser based on libyaml that parses markup i
 - **Automated Multi-Language Binding Generator (Committed Priority)**:
   - Develop an automated binding generation tool for Tether: a standalone generator that inspects Tether's public C99 headers and AST definitions to automatically output foreign language wrappers.
   - Initial supported language targets:
-    1. **Python**: Idiomatic Python wrapper package (`pytether`) utilizing `ctypes`/`cffi`.
-    2. **Rust**: Safe, idiomatic Rust crate (`tether-rs`) wrapping the C ABI with compile-time type safety.
+    1. **Python**: Idiomatic Python language bindings utilizing `ctypes`/`cffi`.
+    2. **Rust**: Safe, idiomatic Rust language bindings wrapping the C ABI with compile-time type safety.
   - Explicitly enforce memory ownership and lifetime invariants: foreign languages hold scalar `Tether_GUID` handles and never hold raw, unsafe heap pointers to internal ECS memory.
 - **Automated CI Integration & Merge Gate**:
   - Integrate the binding generator and multi-language test suites directly into GitHub Actions CI.
@@ -257,21 +257,22 @@ Tether has a declarative YAML scene parser based on libyaml that parses markup i
 
 ## 3. Deliverables and Tranche Summary
 
-| Milestone | Duration | Primary Focus | Key Deliverables | Tranche Amount |
+| Milestone / Item | Duration | Primary Focus | Key Deliverables | Allocation (INR) |
 | :--- | :---: | :--- | :--- | :--- |
-| **M1** | 1.0 Mo | Core Optimization & Extensibility | Reusable memory modules, ECS lifecycle, custom component/widget registration, Linux CI matrix. | **INR 1,12,000** |
-| **M2** | 2.0 Mo | Vinyasa Layout Engine | Primitive-Container-Slot model, Flex and Canvas presets, stateless scratch solver, Tether layout adapter. | **INR 2,24,000** |
-| **M3** | 1.5 Mo | Chitra Advanced Rendering | FreeType/HarfBuzz text shaping, BiDi processing, procedural vectors, shaders, animations, SDL3 backend. | **INR 1,68,000** |
-| **M4** | 1.5 Mo | Modular Parsing & Bindings | Format-independent parser, automated binding generator (Python/Rust), CI merge gate, tested milestone releases. | **INR 1,68,000** |
+| **M1** | 1.0 Mo | Core Optimization & Extensibility | Reusable memory modules, ECS lifecycle, custom component/widget registration, Linux CI matrix. | **INR 1,00,000** |
+| **M2** | 2.0 Mo | Vinyasa Layout Engine | Primitive-Container-Slot model, Flex and Canvas presets, stateless scratch solver, Tether layout adapter. | **INR 2,00,000** |
+| **M3** | 1.5 Mo | Chitra Advanced Rendering | FreeType/HarfBuzz text shaping, BiDi processing, procedural vectors, shaders, animations, SDL3 backend. | **INR 1,50,000** |
+| **M4** | 1.5 Mo | Modular Parsing & Bindings | Format-independent parser, automated Python/Rust bindings, CI merge gates, tested milestone releases. | **INR 1,50,000** |
+| **AI Tooling** | 6.0 Mo | Dedicated Developer Tooling | Claude Max subscription enabling solo maintainer throughput, static analysis, and automated binding generation. | **INR 72,000** |
 | **Total** | **6.0 Mo** | | | **INR 6,72,000** |
 
-*Note: The proposed tranche disbursement schedule is structured around completed milestone deliverables and is subject to mutual agreement and formal grant approval by FOSS United.*
+*Note: The proposed milestone disbursement schedule is structured around completed milestone deliverables and is subject to mutual agreement and formal grant approval by FOSS United.*
 
 ---
 
 ## 4. Budget Breakdown & Justification
 
-The total grant budget requested is **INR 6,72,000** for the six-month full-time engineering period, structured proportionally by milestone duration.
+The total grant budget requested is **INR 6,72,000** for the six-month full-time engineering period, structured into dedicated tooling and milestone-based maintainer compensation.
 
 ### Monthly Cost Breakdown
 
@@ -281,12 +282,13 @@ The total grant budget requested is **INR 6,72,000** for the six-month full-time
 | **Dedicated Development Tooling** | Claude Max / AI engineering subscription: daily pair programming, static analysis, FFI binding generation, test case synthesis, and cross-platform build debugging. | INR 12,000 | 6 Months | INR 72,000 |
 | **Total Funding Request** | | | **6 Months** | **INR 6,72,000** |
 
-### Proportional Tranche Disbursement Schedule:
-Funding is structured into four milestone-based tranches disbursed upon the completion and public verification of each milestone:
-- **Tranche 1 (Month 1.0 - Milestone 1 Completion)**: 1.0 month * INR 1,12,000 = **INR 1,12,000**
-- **Tranche 2 (Month 3.0 - Milestone 2 Completion)**: 2.0 months * INR 1,12,000 = **INR 2,24,000**
-- **Tranche 3 (Month 4.5 - Milestone 3 Completion)**: 1.5 months * INR 1,12,000 = **INR 1,68,000**
-- **Tranche 4 (Month 6.0 - Milestone 4 Completion)**: 1.5 months * INR 1,12,000 = **INR 1,68,000**
+### Proposed Disbursement Schedule:
+Funding is structured into dedicated tooling and four milestone-based maintainer tranches disbursed upon the completion and public verification of each milestone:
+- **Dedicated Tooling (Months 1 to 6 Continuous)**: 6.0 months * INR 12,000 = **INR 72,000**
+- **Tranche 1 (Month 1.0 - Milestone 1 Completion)**: 1.0 month * INR 1,00,000 = **INR 1,00,000**
+- **Tranche 2 (Month 3.0 - Milestone 2 Completion)**: 2.0 months * INR 1,00,000 = **INR 2,00,000**
+- **Tranche 3 (Month 4.5 - Milestone 3 Completion)**: 1.5 months * INR 1,00,000 = **INR 1,50,000**
+- **Tranche 4 (Month 6.0 - Milestone 4 Completion)**: 1.5 months * INR 1,00,000 = **INR 1,50,000**
 - **Total**: **INR 6,72,000**
 
 ### Tooling Expense Justification:
