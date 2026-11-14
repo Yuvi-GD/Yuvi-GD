@@ -48,7 +48,7 @@
         "guid": "tether-project-grant",
         "status": "active",
         "name": "Tether 6-Month Full-Time Development Grant",
-        "description": "Six-month grant (INR 6.72L) funding full-time development of Tether, an extensible C99 ECS UI engine. M1: Core ECS optimization, modular memory, custom widgets/events. M2: Independent Vinyasa layout engine (Flex/Canvas presets). M3: Chitra rendering (SDL3, FreeType, HarfBuzz, BiDi). M4: Format-agnostic parser, automated Python/Rust bindings, CI merge gates, and tested release. Detailed plan: https://github.com/Yuvi-GD/Yuvi-GD/blob/main/funding-plan.md",
+        "description": "Six-month grant (INR 6.72L) funding full-time development of Tether, an extensible C99 ECS UI engine. M1: Core ECS optimization, modular memory, custom widgets/events. M2: Independent Vinyasa layout engine (Flex/Canvas presets). M3: Chitra rendering (SDL3, FreeType, HarfBuzz, BiDi). M4: Format-agnostic parser, automated Python/Rust bindings, CI merge gates, and tested release. Detailed plan: https://github.com/Yuvi-GD/Yuvi-GD/blob/main/Doc/funding-plan.md",
         "amount": 672000,
         "currency": "INR",
         "frequency": "one-time",
